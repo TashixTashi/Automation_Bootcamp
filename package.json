@@ -1,0 +1,22 @@
+{
+  "name": "automation_bootcamp",
+  "version": "1.0.0",
+  "description": "Final Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TashixTashi/Automation_Bootcamp.git"
+  },
+  "author": "T.Harris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TashixTashi/Automation_Bootcamp/issues"
+  },
+  "homepage": "https://github.com/TashixTashi/Automation_Bootcamp#readme",
+  "devDependencies": {
+    "cypress": "^12.1.0"
+  }
+}
