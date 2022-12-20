@@ -5,7 +5,7 @@ import Cart from '../Data/cart.pg'
 describe('Add-to-cart', () => {
   beforeEach(() => {
       cy.visit('/')
-      cy.get(Auth.signInOrRegisterBtn).click();
+      cy.get(Authen.signInRegisterBtn).click();
       //Login on to site.
       cy.origin(
         "https://dev-mlluudmotpwoldtv.us.auth0.com",
