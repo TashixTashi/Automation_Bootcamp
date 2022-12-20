@@ -1,8 +1,13 @@
 import Authenticate from '../Page/products.pg'
 import Product from '../Page/products.pg'
+<<<<<<< HEAD
+import Cart from '../Data/cart.pg'
+
+=======
 import Cart from '../Page/cart.pg'
 
 
+>>>>>>> main
 describe('Add-to-cart', () => {
   beforeEach(() => {
       cy.visit('/')
